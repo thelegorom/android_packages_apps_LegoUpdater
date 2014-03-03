@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.cyanogenmod.updater.service;
+package com.gummy.updater.service;
 
 import android.app.DownloadManager;
 import android.app.IntentService;
@@ -21,12 +21,12 @@ import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.cyanogenmod.updater.R;
-import com.cyanogenmod.updater.misc.Constants;
-import com.cyanogenmod.updater.misc.UpdateInfo;
-import com.cyanogenmod.updater.receiver.DownloadReceiver;
-import com.cyanogenmod.updater.utils.HttpRequestExecutor;
-import com.cyanogenmod.updater.utils.Utils;
+import com.gummy.updater.R;
+import com.gummy.updater.misc.Constants;
+import com.gummy.updater.misc.UpdateInfo;
+import com.gummy.updater.receiver.DownloadReceiver;
+import com.gummy.updater.utils.HttpRequestExecutor;
+import com.gummy.updater.utils.Utils;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.HttpPost;
@@ -96,7 +96,7 @@ public class DownloadService extends IntentService {
     }
 
     private String getServerUri() {
-        String propertyUri = SystemProperties.get("cm.updater.uri");
+        String propertyUri = SystemProperties.get("tg.updater.uri");
         if (!TextUtils.isEmpty(propertyUri)) {
             return propertyUri;
         }

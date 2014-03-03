@@ -84,14 +84,14 @@
     <string name="no_changelog_alert">Ingen ändringslogg tillgänglig</string>
     <string name="failed_to_load_changelog">Kan inte ladda ändringsloggen</string>
     <string name="changelog_dialog_title">Ändringslogg</string>
-    <string name="extension_label">CyanogenModuppdateringar</string>
+    <string name="extension_label">Gummyuppdateringar</string>
     <string name="extension_description">Visar antalet tillgängliga uppdateringar.</string>
     <plurals name="extension_status">
         <item quantity="one"><xliff:g id="count">%d</xliff:g> uppdatering</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> uppdateringar</item>
     </plurals>
     <plurals name="extension_expandedTitle">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> CyanogenModuppdatering</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> CyanogenModuppdateringar</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> Gummyuppdatering</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> Gummyuppdateringar</item>
     </plurals>
 </resources>

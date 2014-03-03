@@ -7,7 +7,7 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">CM 更新器</string>
+    <string name="app_name">Gummy 更新器</string>
     <string name="display_name">更新</string>
     <string name="unknown">未知</string>
     <string name="menu_refresh">刷新</string>
@@ -88,14 +88,14 @@
     <string name="failed_to_load_changelog">无法读取更改记录</string>
     <string name="changelog_dialog_title">更改记录</string>
     <string name="loading_changelog">正处理着\u2026</string>
-    <string name="extension_label">CyanogenMod 更新</string>
+    <string name="extension_label">Gummy 更新</string>
     <string name="extension_description">显示有多少个可用的新更新。</string>
     <plurals name="extension_status">
         <item quantity="one"><xliff:g id="count">%d</xliff:g> 个更新</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> 个更新</item>
     </plurals>
     <plurals name="extension_expandedTitle">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> 个 CyanogenMod 更新</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> 个 CyanogenMod 更新</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> 个 Gummy 更新</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> 个 Gummy 更新</item>
     </plurals>
 </resources>

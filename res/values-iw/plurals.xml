@@ -28,7 +28,7 @@
     <item quantity="other"><xliff:g id="count">%d</xliff:g> עדכונים</item>
   </plurals>
   <plurals name="extension_expandedTitle">
-    <item quantity="one">עדכון CyanogenMod יחיד</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> עדכוני CyanogenMod</item>
+    <item quantity="one">עדכון Gummy יחיד</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> עדכוני Gummy</item>
   </plurals>
 </resources>

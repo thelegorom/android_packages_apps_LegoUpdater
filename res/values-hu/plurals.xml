@@ -21,7 +21,7 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> frissítés</item>
     </plurals>
     <plurals name="extension_expandedTitle">
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> CyanogenMod frissítés</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> Gummy frissítés</item>
     </plurals>
     <plurals name="not_additional_count">
         <item quantity="other">+ <xliff:g id="count">%d</xliff:g> darab</item>

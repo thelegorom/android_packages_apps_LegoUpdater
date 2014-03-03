@@ -9,7 +9,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- General strings -->
-    <string name="app_name">CMアップデータ</string>
+    <string name="app_name">Gummyアップデータ</string>
     <string name="display_name">アップデート</string>
     <string name="unknown">不明</string>
 
@@ -107,15 +107,15 @@
     <string name="changelog_dialog_title">更新履歴</string>
 
     <!-- DashClock extension strings -->
-    <string name="extension_label">CyanogenMod アップデート</string>
+    <string name="extension_label">Gummy アップデート</string>
     <string name="extension_description">利用できる新しいアップデートの数を表示する。</string>
     <plurals name="extension_status">
         <item quantity="one"><xliff:g id="count">%d</xliff:g> 個のアップデート</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> 個のアップデート</item>
     </plurals>
     <plurals name="extension_expandedTitle">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> 個の CyanogenMod アップデート</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> 個の CyanogenMod アップデート</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> 個の Gummy アップデート</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> 個の Gummy アップデート</item>
     </plurals>
 
 </resources>

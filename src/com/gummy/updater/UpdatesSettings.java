@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.cyanogenmod.updater;
+package com.gummy.updater;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -41,13 +41,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.cyanogenmod.updater.misc.Constants;
-import com.cyanogenmod.updater.misc.State;
-import com.cyanogenmod.updater.misc.UpdateInfo;
-import com.cyanogenmod.updater.receiver.DownloadReceiver;
-import com.cyanogenmod.updater.service.UpdateCheckService;
-import com.cyanogenmod.updater.utils.UpdateFilter;
-import com.cyanogenmod.updater.utils.Utils;
+import com.gummy.updater.misc.Constants;
+import com.gummy.updater.misc.State;
+import com.gummy.updater.misc.UpdateInfo;
+import com.gummy.updater.receiver.DownloadReceiver;
+import com.gummy.updater.service.UpdateCheckService;
+import com.gummy.updater.utils.UpdateFilter;
+import com.gummy.updater.utils.Utils;
 
 import java.io.File;
 import java.io.IOException;

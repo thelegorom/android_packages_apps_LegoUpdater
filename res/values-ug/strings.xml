@@ -7,7 +7,7 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">CM يېڭىلىغۇچ</string>
+    <string name="app_name">Gummy يېڭىلىغۇچ</string>
     <string name="display_name">يېڭىلانمىلار</string>
     <string name="unknown">يوچۇن</string>
     <string name="menu_refresh">يېڭىلا</string>
@@ -87,14 +87,14 @@
     <string name="failed_to_load_changelog">ئۆزگىرىش خاتىرىسىنى يۈكلىيەلمىدى</string>
     <string name="changelog_dialog_title">ئۆزگىرىش خاتىرىسى</string>
     <string name="loading_changelog">يۈكلەۋاتىدۇ\u2026</string>
-    <string name="extension_label">CyanogenMod يېڭىلانمىلار</string>
+    <string name="extension_label">Gummy يېڭىلانمىلار</string>
     <string name="extension_description">ئىشلەتكىلى بولىدىغان يېڭىلانما سانىنى كۆرسىتىدۇ</string>
     <plurals name="extension_status">
         <item quantity="one"><xliff:g id="count">%d</xliff:g> يېڭىلانما</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> يېڭىلانما</item>
     </plurals>
     <plurals name="extension_expandedTitle">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> CyanogenMod يېڭىلانما</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> CyanogenMod يېڭىلانما</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> Gummy يېڭىلانما</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> Gummy يېڭىلانما</item>
     </plurals>
 </resources>

@@ -7,13 +7,13 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.cyanogenmod.updater.receiver;
+package com.gummy.updater.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.cyanogenmod.updater.UpdatesSettings;
+import com.gummy.updater.UpdatesSettings;
 
 public class NotificationClickReceiver extends BroadcastReceiver{
     @Override

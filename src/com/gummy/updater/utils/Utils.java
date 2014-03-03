@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.cyanogenmod.updater.utils;
+package com.gummy.updater.utils;
 
 import android.app.AlarmManager;
 import android.app.NotificationManager;
@@ -28,9 +28,9 @@ import android.os.storage.StorageVolume;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.cyanogenmod.updater.R;
-import com.cyanogenmod.updater.misc.Constants;
-import com.cyanogenmod.updater.service.UpdateCheckService;
+import com.gummy.updater.R;
+import com.gummy.updater.misc.Constants;
+import com.gummy.updater.service.UpdateCheckService;
 
 import java.io.File;
 import java.io.IOException;
@@ -54,11 +54,11 @@ public class Utils {
     }
 
     public static String getDeviceType() {
-        return SystemProperties.get("ro.cm.device");
+        return SystemProperties.get("ro.tg.device");
     }
 
     public static String getInstalledVersion() {
-        return SystemProperties.get("ro.cm.version");
+        return SystemProperties.get("ro.tg.version");
     }
 
     public static int getInstalledApiLevel() {

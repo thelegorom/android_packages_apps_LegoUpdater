@@ -9,7 +9,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- General strings -->
-    <string name="app_name">CM Opgradeerder</string>
+    <string name="app_name">Gummy Opgradeerder</string>
     <string name="display_name">Opgraderings</string>
     <string name="unknown">Onbekend</string>
 
@@ -112,15 +112,15 @@
     <string name="loading_changelog">Laai\u2026</string>
 
     <!-- DashClock extension strings -->
-    <string name="extension_label">CyanogenMod opgraderings</string>
+    <string name="extension_label">Gummy opgraderings</string>
     <string name="extension_description">Vertoon die aantal nuwe opgraderings beskikbaar</string>
     <plurals name="extension_status">
         <item quantity="one"><xliff:g id="count">%d</xliff:g> opgradering</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> opgraderings</item>
     </plurals>
     <plurals name="extension_expandedTitle">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> CyanogenMod opgradering</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> CyanogenMod opgraderings</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> Gummy opgradering</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> Gummy opgraderings</item>
     </plurals>
 
 </resources>

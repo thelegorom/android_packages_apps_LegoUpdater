@@ -21,7 +21,7 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> actualizaciones</item>
     </plurals>
     <plurals name="extension_expandedTitle">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> actualización de CyanogenMod</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> actualizaciones de CyanogenMod</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> actualización de Gummy</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> actualizaciones de Gummy</item>
     </plurals>
 </resources>

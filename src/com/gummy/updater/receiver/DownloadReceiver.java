@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.cyanogenmod.updater.receiver;
+package com.gummy.updater.receiver;
 
 import android.app.DownloadManager;
 import android.app.DownloadManager.Query;
@@ -23,14 +23,14 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.cyanogenmod.updater.R;
-import com.cyanogenmod.updater.UpdateApplication;
-import com.cyanogenmod.updater.UpdatesSettings;
-import com.cyanogenmod.updater.misc.Constants;
-import com.cyanogenmod.updater.misc.UpdateInfo;
-import com.cyanogenmod.updater.service.DownloadService;
-import com.cyanogenmod.updater.utils.MD5;
-import com.cyanogenmod.updater.utils.Utils;
+import com.gummy.updater.R;
+import com.gummy.updater.UpdateApplication;
+import com.gummy.updater.UpdatesSettings;
+import com.gummy.updater.misc.Constants;
+import com.gummy.updater.misc.UpdateInfo;
+import com.gummy.updater.service.DownloadService;
+import com.gummy.updater.utils.MD5;
+import com.gummy.updater.utils.Utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -38,12 +38,12 @@ import java.io.IOException;
 public class DownloadReceiver extends BroadcastReceiver{
     private static final String TAG = "DownloadReceiver";
 
-    public static final String ACTION_START_DOWNLOAD = "com.cyanogenmod.cmupdater.action.START_DOWNLOAD";
+    public static final String ACTION_START_DOWNLOAD = "com.gummy.cmupdater.action.START_DOWNLOAD";
     public static final String EXTRA_UPDATE_INFO = "update_info";
 
-    public static final String ACTION_DOWNLOAD_STARTED = "com.cyanogenmod.cmupdater.action.DOWNLOAD_STARTED";
+    public static final String ACTION_DOWNLOAD_STARTED = "com.gummy.cmupdater.action.DOWNLOAD_STARTED";
 
-    private static final String ACTION_INSTALL_UPDATE = "com.cyanogenmod.cmupdater.action.INSTALL_UPDATE";
+    private static final String ACTION_INSTALL_UPDATE = "com.gummy.cmupdater.action.INSTALL_UPDATE";
     private static final String EXTRA_FILENAME = "filename";
 
     @Override

@@ -7,7 +7,7 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Aktualizátor CM</string>
+    <string name="app_name">Aktualizátor Gummy</string>
     <string name="display_name">Aktualizácie</string>
     <string name="unknown">Neznáme</string>
     <string name="menu_refresh">Obnoviť</string>
@@ -87,7 +87,7 @@
     <string name="no_changelog_alert">Nie je dostupný žiadny záznam zmien</string>
     <string name="failed_to_load_changelog">Nie je možné načítať záznam zmien</string>
     <string name="changelog_dialog_title">Záznam zmien</string>
-    <string name="extension_label">Aktualizácie CyanogenMod</string>
+    <string name="extension_label">Aktualizácie Gummy</string>
     <string name="extension_description">Zobrazí počet nových dostupných aktualizácií.</string>
     <string name="loading_changelog">Načítavanie\u2026</string>
     <string name="update_check_failed">Kontrola aktualizácií zlyhala. Skontrolujte prosím svoje internetové pripojenie a skúste to znova neskôr.</string>
@@ -97,8 +97,8 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> aktualizácií</item>
     </plurals>
     <plurals name="extension_expandedTitle">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> aktualizácia CyanogenMod</item>
-        <item quantity="few"><xliff:g id="count">%d</xliff:g> aktualizácie CyanogenMod</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> aktualizácií CyanogenMod</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> aktualizácia Gummy</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> aktualizácie Gummy</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> aktualizácií Gummy</item>
     </plurals>
 </resources>

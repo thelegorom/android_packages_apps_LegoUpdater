@@ -7,7 +7,7 @@
      or at https://www.gnu.org/licenses/gpl-2.0.txt
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">CM Updater</string>
+    <string name="app_name">Gummy Updater</string>
     <string name="display_name">Aktualizacje</string>
     <string name="unknown">Nieznane</string>
     <string name="menu_refresh">Odśwież</string>
@@ -74,15 +74,15 @@
     <string name="no_changelog_alert">Brak dziennika zmian</string>
     <string name="failed_to_load_changelog">Wczytanie dziennika zmian się nie powiodło</string>
     <string name="changelog_dialog_title">Dziennik zmian</string>
-    <string name="extension_label">Aktualizacje CyanogenMod</string>
+    <string name="extension_label">Aktualizacje Gummy</string>
     <string name="extension_description">Wyświetla liczbę dostępnych aktualizacji.</string>
     <plurals name="extension_status">
         <item quantity="one"><xliff:g id="count">%d</xliff:g> aktualizacja</item>
         <item quantity="other"><xliff:g id="count">%d</xliff:g> aktualizacji</item>
     </plurals>
     <plurals name="extension_expandedTitle">
-        <item quantity="one"><xliff:g id="count">%d</xliff:g> aktualizacja CyanogenMod</item>
-        <item quantity="other"><xliff:g id="count">%d</xliff:g> aktualizacji CyanogenMod</item>
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> aktualizacja Gummy</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> aktualizacji Gummy</item>
     </plurals>
     <plurals name="not_additional_count">
         <item quantity="other">+ <xliff:g id="count">%d</xliff:g> więcej</item>
