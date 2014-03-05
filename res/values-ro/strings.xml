@@ -29,9 +29,9 @@
     <string name="check_bi_weekly">"Două ori pe săptămână"</string>
     <string name="check_monthly">"Lunar"</string>
     <string name="update_type_title">"Tipuri actualizări"</string>
-    <string name="type_all">"Toate versiunile(numai Stable)"</string>
+    <string name="type_all">"Toate versiunile(numai Release)"</string>
     <string name="type_all_incl_nightly">"Toate versiunile (incl. Nightlies)"</string>
-    <string name="type_new">"Versiuni noi(numai Stable)"</string>
+    <string name="type_new">"Versiuni noi(numai Release)"</string>
     <string name="type_new_incl_nightly">"Versiuni noi(incl. Nightlies)"</string>
     <string name="checking_for_updates">"Căutare actualizări"</string>
     <string name="no_updates_found">"Nu s-au găsit actualizări noi"</string>

@@ -37,9 +37,9 @@
   <string name="check_bi_weekly">Setiap 2 minggu</string>
   <string name="check_monthly">Setiap bulan</string>
   <string name="update_type_title">Jenis kemaskini</string>
-  <string name="type_all">Semua versi (hanya Stable)</string>
+  <string name="type_all">Semua versi (hanya Release)</string>
   <string name="type_all_incl_nightly">Semua versi (termasuk Nightlies)</string>
-  <string name="type_new">Versi baru (hanya Stable)</string>
+  <string name="type_new">Versi baru (hanya Release)</string>
   <string name="type_new_incl_nightly">Versi baru (termasuk Nightlies)</string>
   <string name="nightly_alert">Anda telah memilih untuk memasukkan kemaskini semalaman dalam senarai ini. Ini tidak disokong dan patut digunakan dengan berhati-hati.</string>
   <string name="nightly_alert_title">Amaran</string>

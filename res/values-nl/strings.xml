@@ -42,9 +42,9 @@
     <string name="check_monthly">Maandelijks</string>
 
     <string name="update_type_title">Soort updates</string>
-    <string name="type_all">Alle versies (alleen Stable)</string>
+    <string name="type_all">Alle versies (alleen Release)</string>
     <string name="type_all_incl_nightly">Alle versies (incl. Nightly)</string>
-    <string name="type_new">Nieuwe versies (alleen Stable)</string>
+    <string name="type_new">Nieuwe versies (alleen Release)</string>
     <string name="type_new_incl_nightly">Nieuwe versies (incl. Nightly)</string>
     <string name="nightly_alert">U heeft ervoor gekozen ook Nightly-updates in de lijst weer te geven. Deze worden niet ondersteund en moeten voorzichtig worden gebruikt.</string>
     <string name="nightly_alert_title">Let op</string>

@@ -289,7 +289,7 @@ public class UpdateCheckService extends IntentService {
 
     private JSONObject buildUpdateRequest(int updateType) throws JSONException {
         JSONArray channels = new JSONArray();
-        channels.put("stable");
+        channels.put("release");
         channels.put("snapshot");
         channels.put("RC");
         if (updateType == Constants.UPDATE_TYPE_NEW_NIGHTLY
@@ -347,8 +347,8 @@ public class UpdateCheckService extends IntentService {
         String incremental = obj.getString("incremental");
         UpdateInfo.Type type;
 
-        if (TextUtils.equals(typeString, "stable")) {
-            type = UpdateInfo.Type.STABLE;
+        if (TextUtils.equals(typeString, "release")) {
+            type = UpdateInfo.Type.RELEASE;
         } else if (TextUtils.equals(typeString, "RC")) {
             type = UpdateInfo.Type.RC;
         } else if (TextUtils.equals(typeString, "snapshot")) {
@@ -360,7 +360,7 @@ public class UpdateCheckService extends IntentService {
         }
 
         UpdateInfo ui = new UpdateInfo(fileName, timestamp, apiLevel, url, md5, type, incremental);
-        boolean includeAll = updateType == Constants.UPDATE_TYPE_ALL_STABLE
+        boolean includeAll = updateType == Constants.UPDATE_TYPE_ALL_RELEASE
             || updateType == Constants.UPDATE_TYPE_ALL_NIGHTLY;
 
         if (!includeAll && !ui.isNewerThanInstalled()) {

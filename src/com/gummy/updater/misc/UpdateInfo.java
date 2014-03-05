@@ -28,7 +28,7 @@ public class UpdateInfo implements Parcelable, Serializable {
 
     public enum Type {
         UNKNOWN,
-        STABLE,
+        RELEASE,
         RC,
         SNAPSHOT,
         NIGHTLY,
