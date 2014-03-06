@@ -38,12 +38,12 @@ import java.io.IOException;
 public class DownloadReceiver extends BroadcastReceiver{
     private static final String TAG = "DownloadReceiver";
 
-    public static final String ACTION_START_DOWNLOAD = "com.gummy.cmupdater.action.START_DOWNLOAD";
+    public static final String ACTION_START_DOWNLOAD = "com.gummy.gummyupdater.action.START_DOWNLOAD";
     public static final String EXTRA_UPDATE_INFO = "update_info";
 
-    public static final String ACTION_DOWNLOAD_STARTED = "com.gummy.cmupdater.action.DOWNLOAD_STARTED";
+    public static final String ACTION_DOWNLOAD_STARTED = "com.gummy.gummyupdater.action.DOWNLOAD_STARTED";
 
-    private static final String ACTION_INSTALL_UPDATE = "com.gummy.cmupdater.action.INSTALL_UPDATE";
+    private static final String ACTION_INSTALL_UPDATE = "com.gummy.gummyupdater.action.INSTALL_UPDATE";
     private static final String EXTRA_FILENAME = "filename";
 
     @Override
