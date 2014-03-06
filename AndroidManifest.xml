@@ -25,7 +25,7 @@
         android:supportsRtl="true">
 
         <service android:name="com.gummy.updater.service.CMDashClockExtension"
-            android:icon="@drawable/ic_extension_cid"
+            android:icon="@drawable/ic_extension_gummy"
             android:label="@string/extension_label"
             android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA">
             <intent-filter>

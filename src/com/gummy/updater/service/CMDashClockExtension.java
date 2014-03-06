@@ -26,7 +26,7 @@ import java.util.Comparator;
 import java.util.LinkedList;
 
 public class CMDashClockExtension extends DashClockExtension {
-    private static final String TAG = "CMDashClockExtension";
+    private static final String TAG = "GummyDashClockExtension";
 
     public static final String ACTION_DATA_UPDATE = "com.gummy.updater.action.DASHCLOCK_DATA_UPDATE";
 
@@ -81,7 +81,7 @@ public class CMDashClockExtension extends DashClockExtension {
         // Publish the extension data update.
         publishUpdate(new ExtensionData()
                 .visible(!updates.isEmpty())
-                .icon(R.drawable.ic_extension_cid)
+                .icon(R.drawable.ic_extension_gummy)
                 .status(res.getQuantityString(R.plurals.extension_status, count, count))
                 .expandedTitle(res.getQuantityString(R.plurals.extension_expandedTitle, count, count))
                 .expandedBody(expandedBody.toString())
