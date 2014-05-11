@@ -178,7 +178,7 @@ public class DownloadReceiver extends BroadcastReceiver{
             } else {
                 String updateUiName = UpdateInfo.extractUiName(updateFile.getName());
 
-                builder.setSmallIcon(R.drawable.cm_updater);
+                builder.setSmallIcon(R.drawable.gummy_updater);
                 builder.setContentTitle(context.getString(R.string.not_download_success));
                 builder.setContentText(updateUiName);
                 builder.setTicker(context.getString(R.string.not_download_success));

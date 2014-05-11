@@ -153,7 +153,7 @@ public class UpdateCheckService extends IntentService {
 
             // Get the notification ready
             Notification.Builder builder = new Notification.Builder(this)
-                    .setSmallIcon(R.drawable.cm_updater)
+                    .setSmallIcon(R.drawable.gummy_updater)
                     .setWhen(System.currentTimeMillis())
                     .setTicker(res.getString(R.string.not_new_updates_found_ticker))
                     .setContentTitle(res.getString(R.string.not_new_updates_found_title))
@@ -298,7 +298,7 @@ public class UpdateCheckService extends IntentService {
         }
 
         JSONObject params = new JSONObject();
-        params.put("device", TESTING_DOWNLOAD ? "cmtestdevice" : Utils.getDeviceType());
+        params.put("device", TESTING_DOWNLOAD ? "gummytestdevice" : Utils.getDeviceType());
         params.put("channels", channels);
         params.put("source_incremental", Utils.getIncremental());
 
