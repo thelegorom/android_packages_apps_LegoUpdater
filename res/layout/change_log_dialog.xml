@@ -33,7 +33,7 @@
 
     </LinearLayout>
 
-    <com.gummy.updater.NotifyingWebView
+    <com.liquid.updater.NotifyingWebView
         android:id="@+id/changelog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

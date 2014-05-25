@@ -8,7 +8,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- GummyUpdate Config Strings -->
-    <string name="conf_update_server_url_def" translatable="false">http://gummyota.rombitch.com/</string>
+    <string name="conf_update_server_url_def" translatable="false">http://liquidsmooth.drdevs.com/</string>
     <string name="conf_changelog_url" translatable="false">http://localhost/changelog.xml</string>
     <bool name="alternateIsInternal">false</bool>
 </resources>

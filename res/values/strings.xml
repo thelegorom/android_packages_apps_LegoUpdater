@@ -9,7 +9,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- General strings -->
-    <string name="app_name">Gummy Updater</string>
+    <string name="app_name">Liquid Updater</string>
     <string name="display_name">Updates</string>
     <string name="unknown">Unknown</string>
 
@@ -105,6 +105,6 @@
     <string name="loading_changelog">Loading\u2026</string>
 
     <!-- DashClock extension strings -->
-    <string name="extension_label">Gummy Updates</string>
+    <string name="extension_label">Liquid Updates</string>
     <string name="extension_description">Displays number of new updates available.</string>
 </resources>
