@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.liquid.updater;
+package com.lego.updater;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -25,7 +25,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.liquid.updater.misc.UpdateInfo;
+import com.lego.updater.misc.UpdateInfo;
 
 import java.io.File;
 

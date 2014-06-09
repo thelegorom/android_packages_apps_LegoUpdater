@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.liquid.updater.service;
+package com.lego.updater.service;
 
 import android.app.IntentService;
 import android.app.Notification;
@@ -22,15 +22,15 @@ import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.liquid.updater.R;
-import com.liquid.updater.UpdateApplication;
-import com.liquid.updater.UpdatesSettings;
-import com.liquid.updater.misc.Constants;
-import com.liquid.updater.misc.State;
-import com.liquid.updater.misc.UpdateInfo;
-import com.liquid.updater.receiver.DownloadReceiver;
-import com.liquid.updater.utils.HttpRequestExecutor;
-import com.liquid.updater.utils.Utils;
+import com.lego.updater.R;
+import com.lego.updater.UpdateApplication;
+import com.lego.updater.UpdatesSettings;
+import com.lego.updater.misc.Constants;
+import com.lego.updater.misc.State;
+import com.lego.updater.misc.UpdateInfo;
+import com.lego.updater.receiver.DownloadReceiver;
+import com.lego.updater.utils.HttpRequestExecutor;
+import com.lego.updater.utils.Utils;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.HttpPost;
@@ -61,11 +61,11 @@ public class UpdateCheckService extends IntentService {
     private static final boolean TESTING_DOWNLOAD = false;
 
     // request actions
-    public static final String ACTION_CHECK = "com.liquid.liquidupdater.action.CHECK";
-    public static final String ACTION_CANCEL_CHECK = "com.liquid.liquidupdater.action.CANCEL_CHECK";
+    public static final String ACTION_CHECK = "com.lego.legoupdater.action.CHECK";
+    public static final String ACTION_CANCEL_CHECK = "com.lego.legoupdater.action.CANCEL_CHECK";
 
     // broadcast actions
-    public static final String ACTION_CHECK_FINISHED = "com.liquid.liquidupdater.action.UPDATE_CHECK_FINISHED";
+    public static final String ACTION_CHECK_FINISHED = "com.lego.legoupdater.action.UPDATE_CHECK_FINISHED";
     // extra for ACTION_CHECK_FINISHED: total amount of found updates
     public static final String EXTRA_UPDATE_COUNT = "update_count";
     // extra for ACTION_CHECK_FINISHED: amount of updates that are newer than what is installed
@@ -153,7 +153,7 @@ public class UpdateCheckService extends IntentService {
 
             // Get the notification ready
             Notification.Builder builder = new Notification.Builder(this)
-                    .setSmallIcon(R.drawable.liquid_updater)
+                    .setSmallIcon(R.drawable.lego_updater)
                     .setWhen(System.currentTimeMillis())
                     .setTicker(res.getString(R.string.not_new_updates_found_ticker))
                     .setContentTitle(res.getString(R.string.not_new_updates_found_title))
@@ -226,7 +226,7 @@ public class UpdateCheckService extends IntentService {
     }
 
     private URI getServerURI() {
-        String propertyUpdateUri = SystemProperties.get("liquid.updater.uri");
+        String propertyUpdateUri = SystemProperties.get("lego.updater.uri");
         if (!TextUtils.isEmpty(propertyUpdateUri)) {
             return URI.create(propertyUpdateUri);
         }
@@ -298,7 +298,7 @@ public class UpdateCheckService extends IntentService {
         }
 
         JSONObject params = new JSONObject();
-        params.put("device", TESTING_DOWNLOAD ? "liquidtestdevice" : Utils.getDeviceType());
+        params.put("device", TESTING_DOWNLOAD ? "legotestdevice" : Utils.getDeviceType());
         params.put("channels", channels);
         params.put("source_incremental", Utils.getIncremental());
 

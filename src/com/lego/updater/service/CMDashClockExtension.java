@@ -7,17 +7,17 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.liquid.updater.service;
+package com.lego.updater.service;
 
 import android.content.Intent;
 import android.content.res.Resources;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.liquid.updater.R;
-import com.liquid.updater.UpdatesSettings;
-import com.liquid.updater.misc.State;
-import com.liquid.updater.misc.UpdateInfo;
+import com.lego.updater.R;
+import com.lego.updater.UpdatesSettings;
+import com.lego.updater.misc.State;
+import com.lego.updater.misc.UpdateInfo;
 import com.google.android.apps.dashclock.api.DashClockExtension;
 import com.google.android.apps.dashclock.api.ExtensionData;
 
@@ -26,9 +26,9 @@ import java.util.Comparator;
 import java.util.LinkedList;
 
 public class CMDashClockExtension extends DashClockExtension {
-    private static final String TAG = "liquidDashClockExtension";
+    private static final String TAG = "legoDashClockExtension";
 
-    public static final String ACTION_DATA_UPDATE = "com.liquid.updater.action.DASHCLOCK_DATA_UPDATE";
+    public static final String ACTION_DATA_UPDATE = "com.lego.updater.action.DASHCLOCK_DATA_UPDATE";
 
     private static final int MAX_BODY_ITEMS = 3;
 
@@ -81,7 +81,7 @@ public class CMDashClockExtension extends DashClockExtension {
         // Publish the extension data update.
         publishUpdate(new ExtensionData()
                 .visible(!updates.isEmpty())
-                .icon(R.drawable.ic_extension_liquid)
+                .icon(R.drawable.ic_extension_lego)
                 .status(res.getQuantityString(R.plurals.extension_status, count, count))
                 .expandedTitle(res.getQuantityString(R.plurals.extension_expandedTitle, count, count))
                 .expandedBody(expandedBody.toString())

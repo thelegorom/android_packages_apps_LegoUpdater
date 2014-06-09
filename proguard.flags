@@ -1,3 +1,3 @@
--keep class com.liquid.updater.UpdatesSettings {
+-keep class com.lego.updater.UpdatesSettings {
   *;
 }

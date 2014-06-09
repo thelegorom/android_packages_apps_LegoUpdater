@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.liquid.updater.receiver;
+package com.lego.updater.receiver;
 
 import android.app.DownloadManager;
 import android.app.DownloadManager.Query;
@@ -24,14 +24,14 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.liquid.updater.R;
-import com.liquid.updater.UpdateApplication;
-import com.liquid.updater.UpdatesSettings;
-import com.liquid.updater.misc.Constants;
-import com.liquid.updater.misc.UpdateInfo;
-import com.liquid.updater.service.DownloadService;
-import com.liquid.updater.utils.MD5;
-import com.liquid.updater.utils.Utils;
+import com.lego.updater.R;
+import com.lego.updater.UpdateApplication;
+import com.lego.updater.UpdatesSettings;
+import com.lego.updater.misc.Constants;
+import com.lego.updater.misc.UpdateInfo;
+import com.lego.updater.service.DownloadService;
+import com.lego.updater.utils.MD5;
+import com.lego.updater.utils.Utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -39,12 +39,12 @@ import java.io.IOException;
 public class DownloadReceiver extends BroadcastReceiver{
     private static final String TAG = "DownloadReceiver";
 
-    public static final String ACTION_START_DOWNLOAD = "com.liquid.liquidupdater.action.START_DOWNLOAD";
+    public static final String ACTION_START_DOWNLOAD = "com.lego.legoupdater.action.START_DOWNLOAD";
     public static final String EXTRA_UPDATE_INFO = "update_info";
 
-    public static final String ACTION_DOWNLOAD_STARTED = "com.liquid.liquidupdater.action.DOWNLOAD_STARTED";
+    public static final String ACTION_DOWNLOAD_STARTED = "com.lego.legoupdater.action.DOWNLOAD_STARTED";
 
-    private static final String ACTION_INSTALL_UPDATE = "com.liquid.liquidupdater.action.INSTALL_UPDATE";
+    private static final String ACTION_INSTALL_UPDATE = "com.lego.legoupdater.action.INSTALL_UPDATE";
     private static final String EXTRA_FILENAME = "filename";
 
     @Override
@@ -178,7 +178,7 @@ public class DownloadReceiver extends BroadcastReceiver{
             } else {
                 String updateUiName = UpdateInfo.extractUiName(updateFile.getName());
 
-                builder.setSmallIcon(R.drawable.liquid_updater);
+                builder.setSmallIcon(R.drawable.lego_updater);
                 builder.setContentTitle(context.getString(R.string.not_download_success));
                 builder.setContentText(updateUiName);
                 builder.setTicker(context.getString(R.string.not_download_success));

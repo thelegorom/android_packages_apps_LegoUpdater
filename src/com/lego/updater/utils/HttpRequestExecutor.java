@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.liquid.updater.utils;
+package com.lego.updater.utils;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

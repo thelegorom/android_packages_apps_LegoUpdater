@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.liquid.updater.misc;
+package com.lego.updater.misc;
 
 import android.content.Context;
 import android.util.Log;
@@ -23,7 +23,7 @@ import java.util.LinkedList;
 
 public class State {
     private static final String TAG = "State";
-    private static final String FILENAME = "liquidupdater.state";
+    private static final String FILENAME = "legoupdater.state";
 
     public static void saveState(Context context, LinkedList<UpdateInfo> availableUpdates) {
         ObjectOutputStream oos = null;

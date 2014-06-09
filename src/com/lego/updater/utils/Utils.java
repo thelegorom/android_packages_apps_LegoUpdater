@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.liquid.updater.utils;
+package com.lego.updater.utils;
 
 import android.app.AlarmManager;
 import android.app.NotificationManager;
@@ -28,9 +28,9 @@ import android.os.storage.StorageVolume;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.liquid.updater.R;
-import com.liquid.updater.misc.Constants;
-import com.liquid.updater.service.UpdateCheckService;
+import com.lego.updater.R;
+import com.lego.updater.misc.Constants;
+import com.lego.updater.service.UpdateCheckService;
 
 import java.io.File;
 import java.io.IOException;
@@ -54,11 +54,11 @@ public class Utils {
     }
 
     public static String getDeviceType() {
-        return SystemProperties.get("ro.liquid.device");
+        return SystemProperties.get("ro.lego.device");
     }
 
     public static String getInstalledVersion() {
-        return SystemProperties.get("ro.liquid.version");
+        return SystemProperties.get("ro.lego.version");
     }
 
     public static int getInstalledApiLevel() {

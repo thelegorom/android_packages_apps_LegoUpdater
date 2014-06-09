@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.liquid.updater;
+package com.lego.updater;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -41,13 +41,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.liquid.updater.misc.Constants;
-import com.liquid.updater.misc.State;
-import com.liquid.updater.misc.UpdateInfo;
-import com.liquid.updater.receiver.DownloadReceiver;
-import com.liquid.updater.service.UpdateCheckService;
-import com.liquid.updater.utils.UpdateFilter;
-import com.liquid.updater.utils.Utils;
+import com.lego.updater.misc.Constants;
+import com.lego.updater.misc.State;
+import com.lego.updater.misc.UpdateInfo;
+import com.lego.updater.receiver.DownloadReceiver;
+import com.lego.updater.service.UpdateCheckService;
+import com.lego.updater.utils.UpdateFilter;
+import com.lego.updater.utils.Utils;
 
 import java.io.File;
 import java.io.IOException;
@@ -618,7 +618,7 @@ public class UpdatesSettings extends PreferenceActivity implements
         mUpdatesList.removeAll();
 
         // Convert the installed version name to the associated filename
-        String installedZip = "liquid-" + Utils.getInstalledVersion() + ".zip";
+        String installedZip = "lego-" + Utils.getInstalledVersion() + ".zip";
 
         // Determine installed incremental
         String installedIncremental = Utils.getIncremental();

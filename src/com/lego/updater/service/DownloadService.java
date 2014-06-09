@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.liquid.updater.service;
+package com.lego.updater.service;
 
 import android.app.DownloadManager;
 import android.app.IntentService;
@@ -21,12 +21,12 @@ import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.liquid.updater.R;
-import com.liquid.updater.misc.Constants;
-import com.liquid.updater.misc.UpdateInfo;
-import com.liquid.updater.receiver.DownloadReceiver;
-import com.liquid.updater.utils.HttpRequestExecutor;
-import com.liquid.updater.utils.Utils;
+import com.lego.updater.R;
+import com.lego.updater.misc.Constants;
+import com.lego.updater.misc.UpdateInfo;
+import com.lego.updater.receiver.DownloadReceiver;
+import com.lego.updater.utils.HttpRequestExecutor;
+import com.lego.updater.utils.Utils;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.client.methods.HttpPost;
@@ -96,7 +96,7 @@ public class DownloadService extends IntentService {
     }
 
     private String getServerUri() {
-        String propertyUri = SystemProperties.get("liquid.updater.uri");
+        String propertyUri = SystemProperties.get("lego.updater.uri");
         if (!TextUtils.isEmpty(propertyUri)) {
             return propertyUri;
         }

@@ -7,7 +7,7 @@
  * or at https://www.gnu.org/licenses/gpl-2.0.txt
  */
 
-package com.liquid.updater.receiver;
+package com.lego.updater.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -17,9 +17,9 @@ import android.net.ConnectivityManager;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
-import com.liquid.updater.misc.Constants;
-import com.liquid.updater.service.UpdateCheckService;
-import com.liquid.updater.utils.Utils;
+import com.lego.updater.misc.Constants;
+import com.lego.updater.service.UpdateCheckService;
+import com.lego.updater.utils.Utils;
 
 public class UpdateCheckReceiver extends BroadcastReceiver {
     private static final String TAG = "UpdateCheckReceiver";
